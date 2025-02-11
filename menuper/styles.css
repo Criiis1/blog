@@ -1,0 +1,50 @@
+.nav {
+    overflow: hidden;
+}
+
+.nav a {
+    background-color: white;
+    color: black;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 18px;
+}
+
+.nav a:hover {
+    background-color: salmon;
+  }
+
+nav .active {
+    background-color: sandybrown;
+  }
+
+nav a:hover:not(.active) {background-color: #ddd;}
+
+.sec1 {
+    padding: 80px 60px;
+    width: 60%;
+    background-color: bisque;  
+}
+
+.sec2 {
+  padding: 80px 60px;
+  width: 60%;
+  background-color: orange;  
+}
+
+.sec3 {
+  padding: 80px 60px;
+  width: 60%;
+  background-color: sandybrown;  
+}
+
+.sec4 {
+  height: 85%;
+  width: 25%;
+  padding-left: 20px;
+  margin-bottom: 400px;
+  margin-left: 70%;
+  position: absolute;
+  background-color: salmon;
+}
