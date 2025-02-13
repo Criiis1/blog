@@ -4,8 +4,6 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^(.*)$ $1.html
 
-# Redirigir todas las rutas inexistentes a index.html
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . blog/page4042/page.html [L]
+# Redirigir a una página 404 personalizada si el archivo no existe
+ErrorDocument 404 /blog/page4042/page.html
 </IfModule>
