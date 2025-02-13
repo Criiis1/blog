@@ -1,12 +1,12 @@
 // Firebase configuration
 const firebaseConfig = {
     apiKey: "AIzaSyCPBg7niHCnHij3Nkfhxq2b6JeL3lQywrg",
-  authDomain: "blog-829a8.firebaseapp.com",
-  projectId: "blog-829a8",
-  storageBucket: "blog-829a8.firebasestorage.app",
-  messagingSenderId: "152262917883",
-  appId: "1:152262917883:web:0d038fba3f3f873a823a5e"
-    };// Initialize Firebase
+    authDomain: "blog-829a8.firebaseapp.com",
+    projectId: "blog-829a8",
+    storageBucket: "blog-829a8.firebasestorage.app",
+    messagingSenderId: "152262917883",
+    appId: "1:152262917883:web:f740b1fd6847b34b823a5e"
+  };// Initialize Firebase
     firebase.initializeApp(firebaseConfig);// Initialize Firebase Authentication
     const auth = firebase.auth();// HTML Elements
     const loginButton = document.getElementById('login');
