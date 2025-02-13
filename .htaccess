@@ -7,5 +7,5 @@ RewriteRule ^(.*)$ $1.html
 # Redirigir todas las rutas inexistentes a index.html
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /page4042/page.html [L]
+RewriteRule . blog/page4042/page.html [L]
 </IfModule>
